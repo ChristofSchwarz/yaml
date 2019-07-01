@@ -1,0 +1,11 @@
+# this settings are insufficient configuration for Minikube, but in purpose for training
+
+engine:
+  acceptEULA: "yes"
+
+global:
+  persistence:
+    storageClass: localnfs
+
+devMode:
+  enabled: true  
