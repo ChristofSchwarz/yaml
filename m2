@@ -12,7 +12,7 @@ devMode:
 
 edge-auth:
   oidc:
-    redirectUri: https://elastic.example:32443/login/callback
+    redirectUri: https://192.168.56.234:32443/login/callback
 
 identity-providers:
   secrets:
@@ -21,7 +21,7 @@ identity-providers:
         clientId: "11YsP5hKPSfbcup0pnEI5151XPUAbN2o"
         clientSecret: "KFMTnM_OGnIFb2Iirt4pTaweBQR9ybrPRvobGc9D63f_pLVvzc9gHZmz2WGzAN_X"
         realm: "Auth0"
-        hostname: "elastic.example"
+        hostname: "192.168.56.234"
         claimsMapping:
           client_id: [ "client_id", "azp" ]
           groups: "/https:~1~1qlik.com~1groups"
