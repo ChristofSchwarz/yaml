@@ -1,4 +1,4 @@
-# this settings are insufficient configuration for Minikube, but in purpose for training
+# this settings are insufficient configuration for Minikube, but on purpose (for training)
 
 engine:
   acceptEULA: "yes"
