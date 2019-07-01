@@ -1,4 +1,6 @@
-# this settings are insufficient configuration for Minikube, but on purpose (for training)
+# minimum set of settings to deploy qliksense on kubernetes, found on
+# https://help.qlik.com/en-US/sense/June2019/Subsystems/PlanningQlikSenseDeployments/Content/Sense_Deployment/Installing-Qlik-Sense-multi-cloud-Efe.htm
+# Note: This settings are insufficient for Minikube
 
 engine:
   acceptEULA: "yes"
