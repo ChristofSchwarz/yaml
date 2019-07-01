@@ -5,8 +5,10 @@ global:
   persistence:
     storageClass: localnfs
 
-mongodb:
-  uri: mongodb://qlik:Qlik1234@mongo-mongodb.default.svc.cluster.local:27017/qsefe
+devMode:
+  enabled: true
+#mongodb:
+#  uri: mongodb://qlik:Qlik1234@mongo-mongodb.default.svc.cluster.local:27017/qsefe
 
 edge-auth:
   oidc:
