@@ -3,7 +3,7 @@ engine:
 
 global:
   persistence:
-    storageClass: localnfs
+    storageClass: standard
 
 devMode:
   enabled: true
