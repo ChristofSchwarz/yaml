@@ -10,6 +10,7 @@ mongodb:
 
 edge-auth:
   oidc:
+    enabled: false
     redirectUri: https://elastic.example:32443/login/callback
 
 elastic-infra:
