@@ -17,9 +17,9 @@ edge-auth:
 identity-providers:
   secrets:
     idpConfigs:
-      - discoveryUrl: "https://qsefe-aor.eu.auth0.com/.well-known/openid-configuration"
-        clientId: "11YsP5hKPSfbcup0pnEI5151XPUAbN2o"
-        clientSecret: "KFMTnM_OGnIFb2Iirt4pTaweBQR9ybrPRvobGc9D63f_pLVvzc9gHZmz2WGzAN_X"
+      - discoveryUrl: "https://qlik.eu.auth0.com/.well-known/openid-configuration"
+        clientId: "yshaJXU98iUb8AvSdUzZzHXGatyd9nen"
+        clientSecret: "ILUmwYcxQ6aSUVn1zIob1OcEuHLjAGqQmwBeNy2KGD0Fg07GNJ1Xw5AgKXa0S_ad"
         realm: "Auth0"
         hostname: "elastic.example"
         claimsMapping:
