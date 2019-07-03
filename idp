@@ -13,6 +13,7 @@ devMode:
 edge-auth:
   oidc:
     redirectUri: https://elastic.example:32443/login/callback
+    enabled: false
 
 identity-providers:
   secrets:
